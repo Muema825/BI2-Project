@@ -56,8 +56,8 @@ def predict_mentalform(data:MentalForm):
      prediction = VotingClassifiers.predict(cleaned_statement)
      feedback = prediction.tolist()
 
-     feedback = data_dict['feedback']
-     print("Feedback: ", feedback)
+     
+     
      return(feedback)    
     
 if __name__ == '__main__':
